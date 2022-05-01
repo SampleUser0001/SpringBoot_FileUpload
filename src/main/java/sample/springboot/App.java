@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 
-import sample.springboot.uploadingfiles.storage.StorageService;
-import sample.springboot.uploadingfiles.stroage.StorageProperties;
+import sample.springboot.uploadingfiles.service.StorageService;
+import sample.springboot.uploadingfiles.properties.StorageProperties;
 
 @SpringBootApplication
 @EnableConfigurationProperties(StorageProperties.class)

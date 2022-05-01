@@ -1,4 +1,4 @@
-package sample.springboot.uploadingfiles.storage;
+package sample.springboot.uploadingfiles.exception;
 
 public class StorageException extends RuntimeException {
     public StorageException(String message) {
