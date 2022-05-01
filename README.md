@@ -1,6 +1,12 @@
 # SpringBoot_FileUpload
 SpringBootでファイルアップロードをする
 
+## 起動
+
+``` bash
+mvn clean spring-boot:run
+```
+
 ## 参考
 
 - [ファイルのアップロード:SpringBoot](https://spring.pleiades.io/guides/gs/uploading-files/)
